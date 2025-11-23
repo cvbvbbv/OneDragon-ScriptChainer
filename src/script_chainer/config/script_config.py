@@ -17,7 +17,8 @@ class ScriptProcessName(Enum):
     ONE_DRAGON_LAUNCHER = ConfigItem(label='一条龙', value='pythonw.exe')
     BGI = ConfigItem(label='BetterGI', value='BetterGI.exe')
     March7th = ConfigItem(label='三月七小助手', value='March7th Assistant.exe')
-
+    MAA-BBB = ConfigItem(label='识宝小助手', value='MFAAvalonia.exe')
+    
 
 class GameProcessName(Enum):
 
@@ -25,7 +26,7 @@ class GameProcessName(Enum):
     GENSHIN_IMPACT_GLOBAL = ConfigItem(label='原神（国际服）', value='GenshinImpact.exe')
     STAR_RAIL_CN = ConfigItem(label='崩坏：星穹铁道', value='StarRail.exe')
     ZZZ_CN = ConfigItem(label='绝区零', value='ZenlessZoneZero.exe')
-
+    HONKAI IMPACT_CN = ConfigItem(label='崩坏3', value='BH3.exe')
 
 class ScriptConfig:
 
